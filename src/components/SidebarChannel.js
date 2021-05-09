@@ -5,7 +5,6 @@ import { setChannelInfo } from "../features/appSlice";
 
 function SidebarChannel({ id, channel }) {
   const dispatch = useDispatch();
-  console.log(id);
   return (
     <div
       className="sidebarChannel"
